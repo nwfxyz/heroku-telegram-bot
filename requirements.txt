@@ -1,8 +1,7 @@
 # List of required packages (Dependencies)
 redis
-telegram
+python-telegram-bot
 bs4
-telegram.ext
 difflib
 
 # If you need to specify a version
