@@ -16,22 +16,16 @@ Created on Tue Jun 13 23:54:27 2017
 from telegram.ext import Updater, CommandHandler, Job
 import logging
 import telegram
-import logging
 import os 
-import re
 from difflib import SequenceMatcher
 from bs4 import BeautifulSoup, NavigableString, Tag
 
 import requests
-os.chdir(r'C:\Users\userpv\Documents\Rwd\Telegram\RSG')
+
 
 import pandas as pd
 
 # Enable logging
-logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-                    level=logging.INFO)
-
-logger = logging.getLogger(__name__)
 
 
 # Define a few command handlers. These usually take the two arguments bot and
