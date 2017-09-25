@@ -45,7 +45,7 @@ def ReadEdmw():
     
     data = r.text
     
-    soup = BeautifulSoup(data, features="xml")
+    soup = BeautifulSoup(data, features=";xml")
     
     Text = []
     for a in soup.findAll('b'):
@@ -65,7 +65,7 @@ def ReadWiki():
     
     data = r.text
     
-    soup = BeautifulSoup(data, features="xml")
+    soup = BeautifulSoup(data, features="lxml")
     
     Text = []
     for a in soup.findAll('tr'):
