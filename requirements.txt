@@ -3,7 +3,7 @@ redis
 python-telegram-bot
 bs4
 pandas
-
+lxml
 
 # If you need to specify a version
 requests==2.16.5
