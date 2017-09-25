@@ -16,7 +16,7 @@ Created on Tue Jun 13 23:54:27 2017
 from telegram.ext import Updater, CommandHandler, Job
 import logging
 import telegram
-import os 
+import re
 from difflib import SequenceMatcher
 from bs4 import BeautifulSoup, NavigableString, Tag
 
