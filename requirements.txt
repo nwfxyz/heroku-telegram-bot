@@ -2,6 +2,7 @@
 redis
 python-telegram-bot
 bs4
+pandas
 
 
 # If you need to specify a version
